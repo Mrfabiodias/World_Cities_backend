@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>World Cities</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <main>
+      <h1>Enter a world city into the database:</h1>
+      <div id="mainCommands">
+        <form id="cityForm">
+          <input
+            type="text"
+            id="input"
+            placeholder="Enter city name"
+            autocomplete="off"
+          />
+          <button type="submit" id="btn">Save on the database</button>
+        </form>
+        <button id="btnClear">Clear all cities</button>
+      </div>
+
+      <div id="cityList"></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

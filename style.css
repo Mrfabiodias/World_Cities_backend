@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#mainCommands {
+  text-align: left;
+  width: 400px;
+}
+
+#input {
+  display: inline-block;
+  height: 30px;
+  width: 50%;
+}
+
+#btn {
+  display: inline-block;
+  height: 30px;
+}
+
+#cityList .city {
+  /* display: inline-flex; */
+  padding: 3px;
+}
